@@ -1,1 +1,11 @@
 # Node-Js-Basics
+(1) Monolithic Architecture: Monolithic architecture is a traditional software architecture in which all the components of an application are tightly coupled and interconnected, forming a single, unified unit. In this approach, the entire application is built as a single, self-contained module, with all the functionalities and services integrated into a single codebase. Monolithic architecture is typically characterized by its simplicity, ease of development, and efficient performance.
+
+(2) Microservices: Microservices is a modern software architecture approach that involves breaking down a large and complex application into smaller, independent services that communicate with each other through well-defined interfaces. Each microservice focuses on a specific business capability and can be developed, deployed, and scaled independently of other services. This approach allows for greater flexibility, agility, and resilience in software development, as changes and updates can be made to individual services without affecting the entire application. Microservices also enable teams to work independently and in parallel, which can accelerate the development process.
+
+(3) Microservices is more appealing to me because monolithic architecture is simple to develop and deploy, but it can become complex and difficult to maintain as the application grows and changes over time. It may not be as scalable as other architectures, as all the components are tightly coupled.
+Microservices architecture on the other hand is highly flexible and scalable, as each microservice can be developed, deployed, and scaled independently. It also allows for greater agility, resilience, and fault tolerance.
+
+(4) No, Node.js is not a multithreaded language. It uses a single-threaded event loop model, which means that it can only execute one task at a time. However, it uses an asynchronous programming model that allows it to handle multiple requests simultaneously by delegating I/O operations to the operating system, which can run in parallel. This approach allows for high concurrency and efficient use of resources.
+
+(5) REPL stands for Read-Evaluate-Print Loop. It is a programming environment that allows developers to enter commands, expressions or code snippets, which are then read, evaluated, and the results printed back to the user.
